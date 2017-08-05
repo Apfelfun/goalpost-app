@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  GoalsVC.swift
 //  goalpost-app
 //
 //  Created by Yousef Ouarghi on 05.08.17.
@@ -8,8 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class GoalsVC: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +22,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func addGoalBtnWasPressed(_ sender: Any) {
+    }
+    
 }
 
